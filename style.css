@@ -1,74 +1,74 @@
 body {
-  background: #2b2d31;
-  width: 100%;
+	background: #2b2d31;
+	width: 100%;
 }
 
 div.centered {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 20px;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 20px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
 }
 
 div.brand {
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 10px;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	row-gap: 10px;
 }
 
 div.name {
-  font-size: 7em;
-  font-weight: bold;
+	font-size: 7em;
+	font-weight: bold;
 }
 
 div.subtitle {
-  font-size: 2em;
-  opacity: 70%;
-  letter-spacing: 0.1em;
-  text-align: center;
+	font-size: 2em;
+	opacity: 70%;
+	letter-spacing: 0.1em;
+	text-align: center;
 }
 
 div.socials {
-  display: flex;
-  column-gap: 20px;
+	display: flex;
+	column-gap: 20px;
 }
 
 div.socials a {
-  position: relative;
+	position: relative;
 }
 
 div.socials a:hover::before {
-  color: #fff;
-  background: #000;
-  content: attr(tooltip);
-  position: absolute;
-  top: 40px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 100;
-  animation: fadeIn 0.5s ease;
-  padding: 5px;
-  border-radius: 5px;
+	color: #fff;
+	background: #000;
+	content: attr(tooltip);
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	animation: fadeIn 0.5s ease;
+	padding: 5px;
+	border-radius: 5px;
 }
 
 div.socials img {
-  width: 35px;
-  height: 35px;
+	width: 35px;
+	height: 35px;
 }
 
 div.links a {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
 }
 div.links a:hover {
-  text-decoration: underline;
-  color: rgba(255, 255, 255, 0.8);
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 0.8);
 }
